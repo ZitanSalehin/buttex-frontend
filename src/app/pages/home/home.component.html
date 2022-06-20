@@ -1,0 +1,73 @@
+
+
+<div class="section1-main">
+  <app-product-card-one [product]="product" *ngFor="let product of products"></app-product-card-one>
+</div>
+
+
+
+<div class="section2-main">
+  <app-feature-card *ngFor="let data of  featureData" [data]="data"></app-feature-card>
+</div>
+
+
+<swiper
+ [slidesPerView]="1"
+ [spaceBetween]="50"
+ [grabCursor]="true"
+ (swiper)="onSwiper($event)"
+ (slideChange)="onSlideChange()"
+ [navigation]="true"
+ [pagination]="{ clickable: true }"
+ [scrollbar]="{ draggable: true }"
+ class="mainSlider-container"
+>
+<ng-template swiperSlide> <img src="../../../assets/images/slider/slider1.jpg" alt="" srcset=""> </ng-template>
+<ng-template swiperSlide> <img src="../../../assets/images/slider/slider2.jpg" alt="" srcset=""> </ng-template>
+
+</swiper>
+
+
+
+  <div class="angry-grid">
+    <div  *ngFor="let product of products | slice: 0: 3; let i=index"  [id]="getProdId1(i)">
+        <img [src]="product.image" alt="" srcset="">
+        <p>{{product.title}}</p>
+        <h3>{{product.subTitle}}</h3>
+    </div>
+   
+  </div>
+
+
+  <div class="angry-grid2">
+    <div  *ngFor="let product of products | slice: 3: 6; let i=index"  [id]="getProdId2(i)">
+        <img [src]="product.image" alt="" srcset="">
+        <p>{{product.title}}</p>
+        <h3>{{product.subTitle}}</h3>
+    </div>
+   
+  </div> 
+  
+ 
+<div *ngFor="let product of products | slice: 6: 8" class="banner1">
+  <img [src]="product.image" alt="" srcset="">
+</div>
+
+
+<div class="new-arrival-section">
+  <div class="new-arrival-title">
+  <p>NEW ARRIVALS</p>
+  <h1>Boys & Girls</h1>
+</div>
+
+<div class="angry-grid3">
+  <div  *ngFor="let product of products | slice: 8: 12; let i=index"  [id]="getProdId3(i)">
+      <img [src]="product.image" alt="" srcset="">
+      
+  </div>
+
+</div> 
+
+
+
+<!---banner-area-->
