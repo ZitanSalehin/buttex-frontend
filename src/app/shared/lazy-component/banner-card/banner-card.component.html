@@ -1,5 +1,102 @@
-<p>banner-card works!</p>
+
 
 <!-- <img src="{{ banner.image }}" alt="" /> -->
 
 <!-- <img src="{{ banner.image }}" alt="" /> -->
+
+<div class="infant">
+  <div class="infant-image">
+    
+    <img src="{{ infant.image }}" alt="" />
+    <!-- <div class="icons">
+       <ul>
+         <li><a href="#"><i class="fa-solid fa-shuffle"></i></a></li>
+         <li><a href="#"><i class="fa fa-play"></i></a></li>
+         <li><a href="#"><i class="fa fa-eye"></i></a></li>
+       </ul>
+    </div> -->
+    <!--tag-->
+     <div class="tag">
+        <span>New</span>
+     </div>
+    <!---wish-->
+    <span class="wish"><i class="fa fa-heart"></i></span>
+  </div>
+  <div class="infant-body">
+    <!-- <div class="rating-area">
+      <ul>
+         <li><i class="fa fa-star"></i></li>
+         <li><i class="fa fa-star"></i></li>
+         <li><i class="fa fa-star"></i></li>
+         <li><i class="fa fa-star"></i></li>
+         <li><i class="fa fa-star"></i></li>
+         <li><span>(3)</span></li>
+      </ul>
+    </div> -->
+    <a href="#">{{ infant.name }}</a>
+    <div class="infant-price">
+      <span class="prevPrice">{{ infant.desc }}</span>
+
+      <div class="infant-one-price-section">
+      <span class="currPrice">${{ infant.price }}</span>
+      <span class="priceDis">${{ infant.priceDis }}</span>
+      <span class="discount-percentage"><p>25% OFF</p></span>
+    </div>
+
+      <!-- <button class="infant-button"><i class="fa-solid fa-basket-shopping"></i> Add To Bag</button> -->
+      
+    </div>
+    <div class="size">
+      <p>
+        S
+    </p>
+    <br>
+      <p>
+        M
+    </p>
+    <br>
+      <p>
+        L
+    </p>
+    <br>
+      <p>
+        XL
+    </p>
+  </div>
+    <button class="infant-button">Add To Bag</button>
+    
+  </div>
+  </div>
+
+  
+
+<!-- 
+  <div class="womenFootwear">
+    <div class="womenFootwear-image">
+      
+      <img src="{{ womenFootwear.image }}" alt="" />
+     
+       <div class="tag">
+          <span>New</span>
+       </div>
+     
+      <span class="wish"><i class="fa fa-heart"></i></span>
+    </div>
+    <div class="womenFootwear-body">
+     
+      <a href="#">{{ womenFootwear.name }}</a>
+      <div class="womenFootwear-price">
+        <span class="prevPrice">{{ womenFootwear.desc }}</span>
+  
+        <div class="womenFootwear-one-price-section">
+        <span class="currPrice">${{ womenFootwear.price }}</span>
+        <span class="priceDis">${{ womenFootwear.priceDis }}</span>
+        <span class="discount-percentage"><p>25% OFF</p></span>
+      </div>
+  
+        
+      </div>
+      <button class="womenFootwear-button">Add To Bag</button>
+      
+    </div>
+    </div> -->

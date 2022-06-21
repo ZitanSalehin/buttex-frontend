@@ -1,6 +1,6 @@
 
 
-<div class="section1-main">
+<!-- <div class="section1-main">
   <app-product-card-one [product]="product" *ngFor="let product of products"></app-product-card-one>
 </div>
 
@@ -8,22 +8,21 @@
 
 <div class="section2-main">
   <app-feature-card *ngFor="let data of  featureData" [data]="data"></app-feature-card>
-</div>
+</div> -->
 
 
 <swiper
  [slidesPerView]="1"
  [spaceBetween]="50"
- [grabCursor]="true"
  (swiper)="onSwiper($event)"
  (slideChange)="onSlideChange()"
- [navigation]="true"
- [pagination]="{ clickable: true }"
- [scrollbar]="{ draggable: true }"
+ [navigation]="false"
+ [pagination]="{ clickable: false }"
+ [scrollbar]="{ draggable: false }"
  class="mainSlider-container"
 >
 <ng-template swiperSlide> <img src="../../../assets/images/slider/slider1.jpg" alt="" srcset=""> </ng-template>
-<ng-template swiperSlide> <img src="../../../assets/images/slider/slider2.jpg" alt="" srcset=""> </ng-template>
+<ng-template swiperSlide> <img src="../../../assets/images/slider/slider1.jpg" alt="" srcset=""> </ng-template>
 
 </swiper>
 

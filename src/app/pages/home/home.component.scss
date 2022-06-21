@@ -932,10 +932,10 @@
     line-height: 20px;
 }
 
-::ng-deep.section7-main.carousel .swiper-slide{
-    padding: 20px 1px 5px 1px;
-    box-sizing: border-box;
-  }
+// ::ng-deep.section7-main.carousel .swiper-slide{
+//     padding: 20px 1px 5px 1px;
+//     box-sizing: border-box;
+//   }
   @media(max-width:400px){
 
     .brand-image::after{
@@ -1032,19 +1032,19 @@
  }
 
 
-::ng-deep.section8-main.carousel .swiper-slide{
-    padding: 0px;
-}
-::ng-deep.section8-main.carousel .swiper-slide{
-    padding: 10px 1px 40px 1px;
-    box-sizing: border-box;
-  }
-  ::ng-deep.swiper-3d .swiper-slide-shadow-left{
-    display: none;
-  }
-  ::ng-deep.swiper-3d .swiper-slide-shadow-right{
-    display: none;
-  }
+// ::ng-deep.section8-main.carousel .swiper-slide{
+//     padding: 0px;
+// }
+// ::ng-deep.section8-main.carousel .swiper-slide{
+//     padding: 10px 1px 40px 1px;
+//     box-sizing: border-box;
+//   }
+//   ::ng-deep.swiper-3d .swiper-slide-shadow-left{
+//     display: none;
+//   }
+//   ::ng-deep.swiper-3d .swiper-slide-shadow-right{
+//     display: none;
+//   }
   @media(max-width:500px){
     .client-card p{
         font-size: 18px;
@@ -1077,13 +1077,11 @@
 
 
 
-
-
-
 .mainSlider-container img{
     width: 100vw;
     height: auto;
     padding: 0 10px 0 5px;
+    object-fit: cover;
 }
 
 .angry-grid {

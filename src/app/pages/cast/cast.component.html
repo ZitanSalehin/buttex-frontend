@@ -1,0 +1,17 @@
+<div class="cast-title">
+
+<h1>BRAND PHILOSOPHY</h1>
+<p>We have romanced our name with visual cues borrowed from the world of the stage and theater. The name is cinematic in nature, yet engaging and sophisticated for a cosmopolitan audience that is looking to be swept away by retail design that captures the essence of living in the spotlight.</p>
+
+ <p>Casting the traditions together with mutual trust and friendship, and working closely <br>
+    to entertain the audience with the magic of fashion.</p>
+    
+</div>
+
+<div class="newArrivalOffer2-grid">
+    <div  *ngFor="let offer of offers | slice: 6: 8; let i=index"  [id]="getOfferId2(i)">
+        <img [src]="offer.image" alt="" srcset="">
+        
+    </div>
+   
+  </div>

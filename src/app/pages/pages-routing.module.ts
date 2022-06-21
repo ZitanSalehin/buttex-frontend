@@ -23,6 +23,22 @@ const routes: Routes = [
       {
         path:"new-arrival",
         loadChildren: () => import ('./new-arrival/new-arrival.module').then(m => m.NewArrivalModule)
+      },
+      {
+        path:"cast",
+        loadChildren: () => import ('./cast/cast.module').then(m => m.CastModule)
+      },
+      {
+        path:"online-edition",
+        loadChildren: () => import ('./online-edition/online-edition.module').then(m => m.OnlineEditionModule)
+      },
+      {
+        path:"boys-girls",
+        loadChildren: () => import ('./boys-girls/boys-girls.module').then(m => m.BoysGirlsModule)
+      },
+      {
+        path:"women",
+        loadChildren: () => import ('./women/women.module').then(m => m.WomenModule)
       }
     ]
   }

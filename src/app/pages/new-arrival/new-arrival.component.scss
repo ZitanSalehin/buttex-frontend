@@ -1,4 +1,122 @@
 @import'./../../../theme/variables';
+h1,h2,h3,h4,h5,h6,p{
+   font-family: $font-en-primary;
+}
+
+.infant-grid {
+    display: grid; 
+   width: 90vw;
+   grid-template-rows: 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   
+   gap: 20px;
+   height: 100%;
+   margin: auto;
+    
+ }
+   
+ #item-4 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 3;
+ }
+ #item-5 {
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: 3;
+    grid-column-end: 5;
+ }
+ #item-6 {
+    grid-row-start: 1;
+    grid-column-start: 5;
+    grid-row-end: 3;
+    grid-column-end: 7;
+ }
+ #item-7 {
+    grid-row-start: 1;
+    grid-column-start: 7;
+    grid-row-end: 3;
+    grid-column-end: 9;
+ }
+ #item-8 {
+    grid-row-start: 1;
+    grid-column-start: 9;
+    grid-row-end: 3;
+    grid-column-end: 11;
+ }
+
+
+ @media only screen and (max-width: 600px) {
+   .infant-grid {
+      display: grid; 
+   
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      
+      gap: 20px;
+      height: 100%;
+      
+   }
+     
+   #item-4 {
+  
+      grid-row-start: 1;
+      grid-column-start: 1;
+   
+      grid-row-end: 3;
+      grid-column-end: 3;
+      
+   }
+   #item-5 {
+   
+      grid-row-start: 3;
+      grid-column-start: 1;
+   
+      grid-row-end: 5;
+      grid-column-end: 3;
+      
+   }
+   #item-6 {
+   
+      grid-row-start: 5;
+      grid-column-start: 1;
+   
+      grid-row-end: 7;
+      grid-column-end: 3;
+      
+   }
+   #item-7 {
+   
+      grid-row-start: 7;
+      grid-column-start: 1;
+   
+      grid-row-end: 9;
+      grid-column-end: 3;
+      
+   }
+   #item-8 {
+   
+      grid-row-start: 9;
+      grid-column-start: 1;
+   
+      grid-row-end: 11;
+      grid-column-end: 3;
+      
+   }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
 .newArrival-banner{
     width: 70vw;
     height: auto;
@@ -124,3 +242,120 @@
      
   }
 
+
+
+
+
+  .womenOffer-grid {
+   display: grid; 
+
+   grid-template-rows: 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+   
+   gap: 20px;
+   height: 100%;
+   
+}
+  
+#item-9 {
+
+ 
+   grid-row-start: 1;
+   grid-column-start: 1;
+
+   grid-row-end: 3;
+   grid-column-end: 3;
+   
+}
+#item-10 {
+
+   grid-row-start: 1;
+   grid-column-start: 3;
+
+   grid-row-end: 3;
+   grid-column-end: 5;
+   
+}
+#item-11 {
+
+   grid-row-start: 1;
+   grid-column-start: 5;
+
+   grid-row-end: 3;
+   grid-column-end: 7;
+   
+}
+
+
+
+
+.womenFootwear-grid{
+   display: grid; 
+  width: 90vw;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  
+  gap: 20px;
+  height: 100%;
+  margin: auto;
+   
+}
+  
+#item-12 {
+   grid-row-start: 1;
+   grid-column-start: 1;
+   grid-row-end: 3;
+   grid-column-end: 3;
+}
+#item-13 {
+   grid-row-start: 1;
+   grid-column-start: 3;
+   grid-row-end: 3;
+   grid-column-end: 5;
+}
+#item-14 {
+   grid-row-start: 1;
+   grid-column-start: 5;
+   grid-row-end: 3;
+   grid-column-end: 7;
+}
+#item-15 {
+   grid-row-start: 1;
+   grid-column-start: 7;
+   grid-row-end: 3;
+   grid-column-end: 9;
+}
+#item-16 {
+   grid-row-start: 1;
+   grid-column-start: 9;
+   grid-row-end: 3;
+   grid-column-end: 11;
+}
+
+
+
+.newArrivalOffer2-grid {
+   width: 80vw;
+   margin: auto;
+   display: grid; 
+   grid-template-rows: 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 20px;
+   height: 100%; 
+}
+  
+#item-17 {
+   background-color: #87B699; 
+   grid-row-start: 1;
+   grid-column-start: 1;
+   grid-row-end: 3;
+   grid-column-end: 3;
+}
+#item-18 {
+   background-color: #BDD55B; 
+   grid-row-start: 1;
+   grid-column-start: 3;
+   grid-row-end: 3;
+   grid-column-end: 5;
+   
+}

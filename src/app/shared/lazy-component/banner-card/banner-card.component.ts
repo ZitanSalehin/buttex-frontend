@@ -7,7 +7,11 @@ import { Component, OnInit,Input } from '@angular/core';
 })
 export class BannerCardComponent implements OnInit {
 
-  @Input() product?:any;
+  
+  @Input() infant?:any;
+  // @Input() womenFootwear?:any;
+
+
   constructor() { }
 
   ngOnInit(): void {
