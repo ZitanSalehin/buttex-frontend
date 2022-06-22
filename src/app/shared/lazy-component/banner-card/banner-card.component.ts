@@ -9,6 +9,8 @@ export class BannerCardComponent implements OnInit {
 
   
   @Input() infant?:any;
+  // @Input() perfume?:any;
+  // @Input() product?:any;
   // @Input() womenFootwear?:any;
 
 

@@ -27,18 +27,30 @@ export class WomenComponent implements OnInit {
     }
   ]  
   
-  perfume:any[] = [
+  perfumes:any[] = [
     {
       _id:1,
       routerLink:'#',
       title:'dummy text',
-      image:'./assets/images/products/bannersItems/banner1.jpg',
+      image:'./assets/images/products/perfumes/perfume1.jpeg',
     },
     {
       _id:2,
       routerLink:'#',
       title:'dummy text',
-      image:'./assets/images/products/bannersItems/banner2.jpeg',
+      image:'./assets/images/products/perfumes/perfume2.jpeg',
+    },
+    {
+      _id:3,
+      routerLink:'#',
+      title:'dummy text',
+      image:'./assets/images/products/perfumes/perfume3.jpeg',
+    },
+    {
+      _id:4,
+      routerLink:'#',
+      title:'dummy text',
+      image:'./assets/images/products/perfumes/perfume4.jpeg',
     }
   ] 
 
@@ -47,28 +59,28 @@ export class WomenComponent implements OnInit {
       _id:1,
       routerLink:'#',
       title:'dummy text',
-      image:'./assets/images/products/newArrivalOffer/newArrivalOffer1.jpg',
+      image:'./assets/images/products/newArrivalOffer/newArrivalOffer13.jpeg',
       
     }, 
     {
       _id:2,
       routerLink:'#',
       title:'dummy text',
-      image:'./assets/images/products/newArrivalOffer/newArrivalOffer2.jpg',
+      image:'./assets/images/products/newArrivalOffer/newArrivalOffer14.jpeg',
       
     },
     {
       _id:3,
       routerLink:'#',
       title:'dummy text',
-      image:'./assets/images/products/newArrivalOffer/newArrivalOffer3.jpg',
+      image:'./assets/images/products/newArrivalOffer/newArrivalOffer15.jpeg',
       
     }, 
     {
       _id:4,
       routerLink:'#',
       title:'dummy text',
-      image:'./assets/images/products/newArrivalOffer/newArrivalOffer4.jpg',
+      image:'./assets/images/products/newArrivalOffer/newArrivalOffer16.jpeg',
       
     }, 
     {
@@ -84,6 +96,31 @@ export class WomenComponent implements OnInit {
       title:'dummy text',
       image:'./assets/images/products/newArrivalOffer/newArrivalOffer6.jpg',
       
+    }, 
+    {
+      _id:7,
+      routerLink:'#',
+      title:'dummy text',
+      image:'./assets/images/products/newArrivalOffer/newArrivalOffer13.jpg',
+      
+    }, 
+    {
+      _id:8,
+      routerLink:'#',
+      title:'dummy text',
+      image:'./assets/images/products/newArrivalOffer/newArrivalOffer14.jpg',
+    }, 
+    {
+      _id:9,
+      routerLink:'#',
+      title:'dummy text',
+      image:'./assets/images/products/newArrivalOffer/newArrivalOffer15.jpg',
+    }, 
+    {
+      _id:10,
+      routerLink:'#',
+      title:'dummy text',
+      image:'./assets/images/products/newArrivalOffer/newArrivalOffer16.jpg',
     }
   ] 
   
@@ -118,9 +155,9 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'GREY POLYESTER VISCOSE KAMEEZ SHALWAR | JJKS-A-44018',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
-      image:'./assets/images/products/infantProducts/infant1.jpeg',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
+      image:'./assets/images/products/infantProducts/womenFootwear1.jpeg',
       
 
     },
@@ -130,9 +167,9 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'WHITE BLENDED KAMEEZ SHALWAR | JCKS-45009',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
-      image:'./assets/images/products/infantProducts/infant2.jpeg',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
+      image:'./assets/images/products/infantProducts/womenFootwear2.jpeg',
     },
     {
       _id:3,
@@ -140,9 +177,9 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'GREY BLENDED KURTA | JCK-43129',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
-      image:'./assets/images/products/infantProducts/infant3.jpeg',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
+      image:'./assets/images/products/infantProducts/womenFootwear3.jpeg',
     },
     {
       _id:4,
@@ -150,9 +187,9 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
-      image:'./assets/images/products/infantProducts/infant4.jpeg',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
+      image:'./assets/images/products/infantProducts/womenFootwear4.jpeg',
     },
     {
       _id:5,
@@ -160,9 +197,9 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
-      image:'./assets/images/products/infantProducts/infant5.jpeg',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
+      image:'./assets/images/products/infantProducts/womenFootwear5.jpeg',
     },
     {
       _id:6,
@@ -170,8 +207,8 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:'./assets/images/products/infantProducts/womenFootwear1.jpeg',
     },
     {
@@ -180,8 +217,8 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:'./assets/images/products/infantProducts/womenFootwear2.jpeg',
     },
     {
@@ -190,8 +227,8 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:'./assets/images/products/infantProducts/womenFootwear3.jpeg',
     },
     {
@@ -200,8 +237,8 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:'./assets/images/products/infantProducts/womenFootwear4.jpeg',
     },
     {
@@ -210,8 +247,8 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:'./assets/images/products/infantProducts/womenFootwear5.jpeg',
     }
   ]
@@ -223,9 +260,9 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'GREY POLYESTER VISCOSE KAMEEZ SHALWAR | JJKS-A-44018',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
-      image:'./assets/images/products/womenFootwear/womenFootwear1.jpeg',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
+      image:'./assets/images/products/womenFootwear/womenFootwear6.jpeg',
       
     },
     {
@@ -234,9 +271,9 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'WHITE BLENDED KAMEEZ SHALWAR | JCKS-45009',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
-      image:'./assets/images/products/womenFootwear/womenFootwear1.jpeg',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
+      image:'./assets/images/products/womenFootwear/womenFootwear7.jpeg',
     },
     {
       _id:3,
@@ -244,9 +281,9 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'GREY BLENDED KURTA | JCK-43129',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
-      image:'./assets/images/products/womenFootwear/womenFootwear1.jpeg',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
+      image:'./assets/images/products/womenFootwear/womenFootwear8.jpeg',
     },
     {
       _id:4,
@@ -254,9 +291,9 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
-      image:'./assets/images/products/womenFootwear/womenFootwear1.jpeg',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
+      image:'./assets/images/products/womenFootwear/womenFootwear9.jpeg',
     },
     {
       _id:5,
@@ -264,9 +301,9 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
-      image:'./assets/images/products/womenFootwear/womenFootwear1.jpeg',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
+      image:'./assets/images/products/womenFootwear/womenFootwear10.jpeg',
     }
   ]
 
@@ -277,9 +314,9 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'GREY POLYESTER VISCOSE KAMEEZ SHALWAR | JJKS-A-44018',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
-      image:'./assets/images/products/01.jpg',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
+      image:'./assets/images/products/infantProducts/womenFootwear1.jpeg',
       
 
     },
@@ -289,8 +326,8 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'WHITE BLENDED KAMEEZ SHALWAR | JCKS-45009',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/02.jpg"
     },
     {
@@ -299,8 +336,8 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'GREY BLENDED KURTA | JCK-43129',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/03.jpg"
     },
     {
@@ -309,8 +346,8 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/04.jpg"
     },
     {
@@ -319,8 +356,8 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'GREY BLENDED KURTA | JCK-43129',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/05.jpg"
     },
     {
@@ -329,8 +366,8 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'GREY POLYESTER VISCOSE KAMEEZ SHALWAR | JJKS-A-44018',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/06.jpg"
     },
     {
@@ -339,8 +376,8 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'GREY POLYESTER VISCOSE KAMEEZ SHALWAR | JJKS-A-44018',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/07.jpg"
     },
     {
@@ -349,8 +386,8 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/08.jpg"
     },
     {
@@ -359,8 +396,8 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/09.jpg"
     },
     {
@@ -369,8 +406,8 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'GREY POLYESTER VISCOSE KAMEEZ SHALWAR | JJKS-A-44018',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/10.jpg"
     },
     {
@@ -379,8 +416,8 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'WHITE BLENDED KAMEEZ SHALWAR | JJIKP-43146',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/11.jpg"
     },
     {
@@ -389,8 +426,8 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/12.jpg"
     },
     {
@@ -399,10 +436,79 @@ export class WomenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/13.jpg"
     }
   ]
+
+
+  getOfferId1(index: number): string {
+    if(index === 0) {
+      return 'item-0';
+    } else {
+      return 'item-1';
+    } 
+
+  } 
+
+  getFragId(index: number): string {
+    if(index === 0) {
+      return 'item-2';
+    } else if (index === 1) {
+      return 'item-3';
+    } 
+     else if (index === 2) {
+      return 'item-4';
+    } 
+     else if (index === 3) {
+      return 'item-5';
+    } 
+     else  {
+      return 'item-6';
+    } 
+
+  } 
+
+  getWomenId(index: number): string {
+    if(index === 0) {
+      return 'item-2';
+    } else if (index === 1) {
+      return 'item-3';
+    } 
+     else {
+      return 'item-4';
+    }
+
+  } 
+
+
+  getInfantId1(index: number): string {
+    if(index === 0) {
+      return 'item-5';
+    } else if(index === 1) {
+      return 'item-6'
+    } else if(index===2) {
+      return 'item-7'
+    } else if(index===3) {
+      return 'item-8'
+    } else {
+      return 'item-9'
+    }
+  }
+
+  // getInfantId2(index: number): string {
+  //   if(index === 0) {
+  //     return 'item-5';
+  //   } else if(index === 1) {
+  //     return 'item-6'
+  //   } else if(index===2) {
+  //     return 'item-7'
+  //   } else if(index===3) {
+  //     return 'item-8'
+  //   } else {
+  //     return 'item-9'
+  //   }
+  // }
 
 }

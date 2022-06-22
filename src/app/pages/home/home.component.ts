@@ -220,8 +220,8 @@ constructor() { }
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'GREY POLYESTER VISCOSE KAMEEZ SHALWAR | JJKS-A-44018',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:'./assets/images/products/01.jpg',
       
 
@@ -232,8 +232,8 @@ constructor() { }
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'WHITE BLENDED KAMEEZ SHALWAR | JCKS-45009',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/02.jpg"
     },
     {
@@ -242,8 +242,8 @@ constructor() { }
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'GREY BLENDED KURTA | JCK-43129',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/03.jpg"
     },
     {
@@ -252,8 +252,8 @@ constructor() { }
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/04.jpg"
     },
     {
@@ -262,8 +262,8 @@ constructor() { }
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'GREY BLENDED KURTA | JCK-43129',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/05.jpg"
     },
     {
@@ -272,8 +272,8 @@ constructor() { }
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'GREY POLYESTER VISCOSE KAMEEZ SHALWAR | JJKS-A-44018',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/06.jpg"
     },
     {
@@ -282,8 +282,8 @@ constructor() { }
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'GREY POLYESTER VISCOSE KAMEEZ SHALWAR | JJKS-A-44018',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/07.jpg"
     },
     {
@@ -292,8 +292,8 @@ constructor() { }
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/08.jpg"
     },
     {
@@ -302,8 +302,8 @@ constructor() { }
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/09.jpg"
     },
     {
@@ -312,8 +312,8 @@ constructor() { }
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'GREY POLYESTER VISCOSE KAMEEZ SHALWAR | JJKS-A-44018',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/10.jpg"
     },
     {
@@ -322,8 +322,8 @@ constructor() { }
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'WHITE BLENDED KAMEEZ SHALWAR | JJIKP-43146',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/11.jpg"
     },
     {
@@ -332,8 +332,8 @@ constructor() { }
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/12.jpg"
     },
     {
@@ -342,8 +342,8 @@ constructor() { }
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/13.jpg"
     }
   ]
@@ -364,8 +364,8 @@ constructor() { }
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'GREY POLYESTER VISCOSE KAMEEZ SHALWAR | JJKS-A-44018',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:'./assets/images/products/01.jpg',
       
 
@@ -376,8 +376,8 @@ constructor() { }
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'WHITE BLENDED KAMEEZ SHALWAR | JCKS-45009',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/02.jpg"
     },
     {
@@ -386,8 +386,8 @@ constructor() { }
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'GREY BLENDED KURTA | JCK-43129',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/03.jpg"
     }
   ]

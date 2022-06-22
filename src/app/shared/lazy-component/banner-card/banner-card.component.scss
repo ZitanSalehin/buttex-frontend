@@ -172,6 +172,7 @@
 
   }
   .prevPrice{
+    height: 30px;
     color:black;
     font-weight: 500;
     font-family: $font-en-primary;
@@ -179,16 +180,19 @@
     font-size: 14px;
   }
   .currPrice{
+    flex-wrap: nowrap;
+    width: 90%;
+    height: 30px;
     color: red;
     font-weight: 500;
     font-family: $font-en-primary;
     font-style: normal;
-    font-size: 1vw;
+    font-style: 40%;
   }
-  .currPrice small{
-    font-weight: 400;
-    font-size: 15px;
-  }
+  // .currPrice small{
+  //   font-weight: 400;
+  //   font-size: 15px;
+  // }
   .infant-body button{
     background-color: white;
     font-family: $font-en-primary;
@@ -212,34 +216,26 @@
   .infant-body button i{
     font-size: 15px;
   }
-  // @media(max-width:440px){
-  //   .infant-body a{
-  //     font-size: 15px;
-  //     line-height: 22px;
-  //   }
-  //   .currPrice,.prevPrice{
-  //     font-size: 16px;
-  //   }
-  //   .infant-body button i{
-  //     display: none;
-  //   }
-   
-  // }
+ 
 
   .priceDis{
+    flex-wrap: nowrap;
+    margin: 5%;
+    width: 80%;
     text-decoration: line-through;
-    padding:1vw;
+    padding:5%;
+    font-size: 90%;
   }
 
-  .currPrice{
-    padding: 5px;
-  }
+  // .currPrice{
+  //   padding: 5px;
+  // }
 .infant-one-price-section{
   display: flex;
 }
 
 .discount-percentage{
-  width: 8vw;
+  width: 4vw;
   height: 20px;
   background-color: red;
   // padding: 2%;
@@ -247,7 +243,7 @@
   
 }
 .discount-percentage p{
-  font-size: 1vw;
+  font-size: 70%;
 }
 
 
@@ -438,19 +434,22 @@
   font-weight: 500;
   font-family: $font-en-primary;
   font-style: normal;
-  font-size: 14px;
+  font-size: 80%;
 }
 .currPrice{
+  flex-wrap: nowrap;
+  width: 90%;
+  margin-top: 10px;
   color: red;
   font-weight: 500;
   font-family: $font-en-primary;
-  font-style: normal;
-  font-size: 1vw;
+  font-style: 40%;
+ 
 }
-.currPrice small{
-  font-weight: 400;
-  font-size: 15px;
-}
+// .currPrice small{
+//   font-weight: 400;
+//   font-size: 15px;
+// }
 .womenFootwear-body button{
   background-color: white;
   font-family: $font-en-primary;
@@ -488,19 +487,21 @@
 // }
 
 .priceDis{
+  flex-wrap: nowrap;
+  margin: 5%;
+    width: 80%;
   text-decoration: line-through;
-  padding:1vw;
+  padding:5%;
+  font-size: 90%;
+  
 }
 
-.currPrice{
-  padding: 5px;
-}
 .womenFootwear-one-price-section{
 display: flex;
 }
 
 .discount-percentage{
-width: 8vw;
+width: 4vw;
 height: 20px;
 background-color: red;
 // padding: 2%;
@@ -508,22 +509,23 @@ color: white;
 
 }
 .discount-percentage p{
-font-size: 1vw;
+font-size: 70%;
 }
 
 .size{
+  padding-top: -20%;
   width: 10vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 .size p{
-  font-size: 12px;
-  width: 25px;
-  padding: 5px;
+  font-size: 70%;
+  width: 2vw;
+  padding: 5%;
   background-color: lightgrey;
   border-radius: 50%;
-  margin: 10px;
+  // margin: 10px;
 }
 
 

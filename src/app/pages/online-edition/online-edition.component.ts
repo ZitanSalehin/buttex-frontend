@@ -29,8 +29,8 @@ export class OnlineEditionComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'GREY POLYESTER VISCOSE KAMEEZ SHALWAR | JJKS-A-44018',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:'./assets/images/products/infantProducts/infantProducts/infant1.jpeg',
       
 
@@ -41,8 +41,8 @@ export class OnlineEditionComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'WHITE BLENDED KAMEEZ SHALWAR | JCKS-45009',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:'./assets/images/products/infantProducts/infantProducts/infant2.jpeg',
     },
     {
@@ -51,8 +51,8 @@ export class OnlineEditionComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'GREY BLENDED KURTA | JCK-43129',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:'./assets/images/products/infantProducts/infantProducts/infant3.jpeg',
     },
     {
@@ -61,8 +61,8 @@ export class OnlineEditionComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:'./assets/images/products/infantProducts/infantProducts/infant4.jpeg',
     },
     {
@@ -71,8 +71,8 @@ export class OnlineEditionComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:'./assets/images/products/infantProducts/infantProducts/infant5.jpeg',
     },
     {
@@ -81,8 +81,8 @@ export class OnlineEditionComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:'./assets/images/products/infantProducts/infantProducts/womenFootwear1.jpeg',
     },
     {
@@ -91,8 +91,8 @@ export class OnlineEditionComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:'./assets/images/products/infantProducts/infantProducts/womenFootwear2.jpeg',
     },
     {
@@ -101,8 +101,8 @@ export class OnlineEditionComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:'./assets/images/products/infantProducts/infantProducts/womenFootwear3.jpeg',
     },
     {
@@ -111,8 +111,8 @@ export class OnlineEditionComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:'./assets/images/products/infantProducts/infantProducts/womenFootwear4.jpeg',
     },
     {
@@ -121,8 +121,8 @@ export class OnlineEditionComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:'./assets/images/products/infantProducts/infantProducts/womenFootwear5.jpeg',
     },
     {
@@ -131,8 +131,8 @@ export class OnlineEditionComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/infantProducts/p1.jpeg"
     },
     {
@@ -141,8 +141,8 @@ export class OnlineEditionComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/infantProducts/p2.jpeg"
     },
     {
@@ -151,8 +151,8 @@ export class OnlineEditionComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/infantProducts/p3.jpeg"
     },
     {
@@ -161,8 +161,8 @@ export class OnlineEditionComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/infantProducts/p4.jpeg"
     },
     {
@@ -171,8 +171,8 @@ export class OnlineEditionComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/infantProducts/p5.jpeg"
     },
     {
@@ -181,8 +181,8 @@ export class OnlineEditionComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/infantProducts/p6.jpeg"
     },
     {
@@ -191,8 +191,8 @@ export class OnlineEditionComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/infantProducts/p7.jpeg"
     },
     {
@@ -201,8 +201,8 @@ export class OnlineEditionComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/infantProducts/p8.jpeg"
     },
     {
@@ -211,8 +211,8 @@ export class OnlineEditionComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/infantProducts/p9.jpeg"
     },
     {
@@ -221,8 +221,8 @@ export class OnlineEditionComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/infantProducts/p10.jpeg"
     },
     {
@@ -231,8 +231,8 @@ export class OnlineEditionComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/infantProducts/p11.jpeg"
     },
     {
@@ -241,8 +241,8 @@ export class OnlineEditionComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'PKR 4500',
-      priceDis:'PKR 4500',
+      price:'bdt 4500',
+      priceDis:'bdt 4500',
       image:"./assets/images/products/infantProducts/p12.jpeg"
     }
   ]
