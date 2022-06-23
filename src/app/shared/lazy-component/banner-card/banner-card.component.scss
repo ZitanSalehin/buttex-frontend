@@ -197,14 +197,14 @@
     background-color: white;
     font-family: $font-en-primary;
     font-style: normal;
-    font-size: 400;
-    width: 8vw;
+    font-size: 2vw;
+    width: 6vw;
     font-size: 1vw;
     display: flex;
     gap: 10px;
     align-items: center;
     justify-content: center;
-    padding: 5px 0;
+    padding: 2px 0;
     box-sizing: border-box;
     color: black;
     border: 1px solid transparent;
@@ -513,16 +513,16 @@ font-size: 70%;
 }
 
 .size{
-  padding-top: -20%;
+  margin-top: -10%;
   width: 10vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 .size p{
-  font-size: 70%;
+  font-size: 60%;
   width: 2vw;
-  padding: 5%;
+  padding: 2%;
   background-color: lightgrey;
   border-radius: 50%;
   // margin: 10px;

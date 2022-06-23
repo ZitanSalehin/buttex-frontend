@@ -39,6 +39,10 @@ const routes: Routes = [
       {
         path:"women",
         loadChildren: () => import ('./women/women.module').then(m => m.WomenModule)
+      },
+      {
+        path:"men",
+        loadChildren: () => import ('./men/men.module').then(m => m.MenModule)
       }
     ]
   }

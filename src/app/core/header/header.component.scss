@@ -518,7 +518,7 @@ nav{
   }
   .wrapper .logo a{
     color: grey;
-    font-size: 30px;
+    font-size: 15px;
     font-weight: 600;
     text-decoration: none;
   }
@@ -554,11 +554,14 @@ nav{
     opacity: 0;
     visibility: hidden;
     box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+  
+    font-size: $font-en-primary;
+    font-size: 12px;
   }
   .nav-links li:hover .drop-menu,
   .nav-links li:hover .mega-box{
     transition: all 0.4s ease;
-    top: 50px;
+    top: 40px;
     opacity: 1;
     visibility: visible;
   }
@@ -578,6 +581,12 @@ nav{
     top: 85px;
     opacity: 0;
     visibility: hidden;
+    // font-size: $font-en-primary;
+    // font-size: 14px;
+  }
+  .mega-box a{
+    font-size: $font-en-primary;
+    font-size: 12px;
   }
   .mega-box .content{
     background-color: $heading-color;
@@ -598,11 +607,12 @@ nav{
   }
   .content .row header{
     color: grey;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 500;
   }
   .content .row .mega-links{
     margin-left: -40px;
+    font-size: 12px;
     // border-left: 1px solid rgba(255,255,255,0.09);
   }
   .row .mega-links li{
@@ -612,7 +622,7 @@ nav{
     padding: 0px;
     padding: 0 20px;
     color: grey;
-    font-size: 15px;
+    font-size: 12px;
     display: block;
     font-family:$font-en-primary;
   }
@@ -621,7 +631,7 @@ nav{
   }
   .wrapper .btn{
     color: grey;
-    font-size: 20px;
+    font-size: 14px;
     cursor: pointer;
     display: none;
   }
@@ -683,7 +693,7 @@ nav{
     .nav-links li a{
       padding: 0 20px;
       display: block;
-      font-size: 20px;
+      font-size: 12px;
     }
     .nav-links .drop-menu{
       position: static;
@@ -706,12 +716,12 @@ nav{
     }
     .desktop-item a{
       font-family:$font-en-primary;
-      font-size: 16px;
+      font-size: 14px;
     }
     .nav-links .mobile-item{
       display: block;
       color: #f2f2f2;
-      font-size: 20px;
+      font-size: 14px;
       font-weight: 500;
       padding-left: 20px;
       cursor: pointer;
@@ -726,7 +736,7 @@ nav{
     }
     .drop-menu li a{
       border-radius: 5px;
-      font-size: 18px;
+      font-size: 14px;
     }
     .mega-box{
       position: static;
@@ -737,6 +747,13 @@ nav{
       max-height: 0px;
       overflow: hidden;
       transition: all 0.3s ease;
+      font-family: $font-en-primary;
+      font-size: 10px;
+    }
+    header{
+        font-size: $font-en-primary;
+        font-size: 14px;
+      
     }
     .mega-box .content{
       box-shadow: none;
@@ -760,7 +777,7 @@ nav{
       margin: 0;
     }
     .content .row header{
-      font-size: 19px;
+      font-size: 12px;
     }
   }
   nav input{
@@ -776,10 +793,12 @@ nav{
     padding: 0 30px;
   }
   .body-text div{
-    font-size: 45px;
+    font-size: 15px;
     font-weight: 600;
   }
-
+.row{
+  font-size: 10px;
+}
 
 
 .main-logo{

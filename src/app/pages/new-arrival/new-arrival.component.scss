@@ -5,7 +5,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 .infant-grid {
     display: grid; 
-   width: 90vw;
+   width: 80vw;
    grid-template-rows: 1fr 1fr;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
    
@@ -248,10 +248,10 @@ h1,h2,h3,h4,h5,h6,p{
 
   .womenOffer-grid {
    display: grid; 
-
+   width: 80vw;
    grid-template-rows: 1fr 1fr;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-   
+   margin: auto;
    gap: 20px;
    height: 100%;
    

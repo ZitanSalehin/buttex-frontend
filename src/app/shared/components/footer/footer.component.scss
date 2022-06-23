@@ -17,13 +17,11 @@
     font-size: 14px;
     letter-spacing: 1px;
     font-weight: 300;
-
 }
 .footer-title h1{
     font-size: 15px;
     letter-spacing: 1px;
 }
-
 .footer-input{
     display: flex;
     align-items: center;
@@ -68,17 +66,17 @@
     }
 }
 .footer-column1,.footer-column2,.footer-column3,.footer-column4{
-    padding: 20px;
+    padding: 10px;
 }
 
 .footer-container2 h4{
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     font-size: 15px;
     font-family:$font-en-primary;
 }
 .footer-container2 p{
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     font-size: 14px;
     font-family:$font-en-primary;
@@ -89,3 +87,50 @@
     font-size: 12px;
     font-family:$font-en-primary;
 }
+
+.social-btns{
+    width: 150px;
+    display: flex;
+    font-size: 20px;
+}
+.social-btns .btn{
+
+    padding: 8px;
+    color: rgb(110, 110, 110);
+}
+
+.whatsapp:hover{
+    background-color: aqua;
+    border-radius: 10px;
+    color: rgb(90, 90, 90);
+}
+.facebook:hover{
+    background-color: aqua;
+    border-radius: 10px;
+    // color: white;
+}
+.linkedin:hover{
+    background-color: aqua;
+    border-radius: 10px;
+}
+.google:hover{
+    background-color:aqua;
+    border-radius: 10px;
+}
+.instagram:hover{
+    background-color: aqua;
+    border-radius: 10px;
+}
+.twitter:hover{
+    background-color: aqua;
+    border-radius: 10px;
+    
+}
+
+.pinterest:hover{
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+
+

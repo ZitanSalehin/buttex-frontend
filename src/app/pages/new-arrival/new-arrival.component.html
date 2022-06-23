@@ -26,7 +26,7 @@
 
 <h3 style="text-align: center; padding-top:20px">INFANTS</h3>
 <hr style="width: 85vw;align-items: center;margin: auto;">
-
+<br>
 <!-- <app-banner-card [infant]="infant" *ngFor="let infant of infants"></app-banner-card> -->
 
 
@@ -34,7 +34,7 @@
 <div class="infant-grid">
     <app-banner-card [infant]="infant" *ngFor="let infant of infants | slice: 0: 5; let i=index"  [id]="getInfantId1(i)"></app-banner-card>
 </div>
-
+<br>
 
 <div class="womenOffer-grid">
     <div  *ngFor="let womenOffer of womenOffers | slice: 0: 3; let i=index"  [id]="getWomenOfferId(i)">

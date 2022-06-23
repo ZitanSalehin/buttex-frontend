@@ -7,12 +7,14 @@ import { PagesRoutingModule } from './pages-routing.module';
 import { PagesComponent } from './pages.component';
 
 
+
 // import { NewArrivalComponent } from './new-arrival/new-arrival.component';
 
 
 @NgModule({
   declarations: [
     PagesComponent,
+  
 
   ],
   imports: [
